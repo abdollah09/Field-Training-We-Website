@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="courses.css">
+</head>
+<body>
+    <div class="container">    
+        <h1>Book Courses</h1>
+        <form action="../Home/Home.html">
+            <label for="username">Username</label>
+            <input type="text" id="username" required placeholder="Username or Number"> <br><br>
+            <label for="email">Email Address</label>
+            <input type="email" id="email" required placeholder="contact@gmail.com"> <br><br>
+            <label for="password">Password</label>
+            <input type="password" id="password" required minlength="8"  placeholder="********"> <br><br>
+            <label for="Gender">Gender</label>
+            <select id="Gender" required>
+                <option value="Selcet your Gender" hidden>Selcet your Gender</option>
+                <option value="Male">Male</option>
+                <option value="Female">Female</option>
+            </select> <br><br>
+            <label for="Courses">Select Course</label>
+            <select id="Courses" required>
+                <option value="Available Courses" hidden>Available Courses</option>
+                <option value="Programing">Programing</option>
+                <option value="Network">Network</option>
+                <option value="Telecomunication">Telecomunication</option>
+            </select> <br><br>
+            <button type="submit">Book Your Course</button>
+        </form>
+        <p>Already Registered? <a href="../Login/login.html">Login Now!</a></p>
+    </div>
+</body>
+</html>
